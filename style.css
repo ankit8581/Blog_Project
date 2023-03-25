@@ -1,0 +1,233 @@
+/* font */
+@font-face {
+    font-family: PaytoneOne-Regular;
+    src: url(../Fonts/PaytoneOne-Regular.ttf);
+}
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: PaytoneOne-Regular; 
+}
+
+/* body */
+body{
+    margin: 0%;
+}
+
+.uni-padding{
+    padding: 0 10%;
+}
+
+/* Heading */
+
+/* topbar */
+#topbar{
+    background-color: #1C2A39;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#mail{
+   font-size: 15px;
+    float: left;
+    color: white;
+}
+
+#social-media{
+  float: right;
+  margin-top: 10px;
+}
+
+
+/* logo bar */
+#logo-bar img{
+    width: 200px;
+    margin: 25px 0px;
+}
+
+/* nav bar  */
+ #navbar{
+    background-color: #f4511e;
+ }
+
+ #navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+ }
+ #navbar ul{
+    margin: 0%;
+    padding: 0%;
+ }
+
+ #navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+ }
+
+ /* banner */
+ #poster{
+  background-image: url(./Images/xyz.jpg);
+  width: 1024px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+ }
+
+ /* why us */
+ #whysection{
+  overflow: auto;
+  margin-bottom: 50px;
+ }
+ .redheading{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: #f4511e;
+ }
+
+ .section33{
+   width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+  box-sizing: border-box;
+ }
+  
+ .section33 h2{
+  color: #f4511e;
+ }
+
+ .section33 p{
+  color: black;
+ }
+
+  /* Contact */
+  #contect-container{
+    background-color: #f4511e;
+    color: white;
+    overflow: auto;
+  }
+  .section70{
+    width: 100%;
+    float: left;
+  }
+  .section30{
+    /* width: 50%; */
+    float: left;
+    
+  }
+  #contact{
+    background-color: white;
+    color: #f4511e;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+   
+  }
+
+    /* Blog */
+    .section33{
+      max-width: 100%;
+    }
+
+    .section33 a{
+      color: #f4511e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Subscribe */
+
+    #subscribe{
+      background-color: #f4511e;
+      color: white;
+      overflow: auto;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-top: 10%;
+    }
+    #subscribe50{
+      width: 50%;
+      float: left;
+      
+    }
+    #subscribe51{
+      padding-top: 3%;
+      padding-left: 10%;
+
+    }
+  
+  /* footer */
+  #imp-link{
+    background-color: #5c6a79;
+    color: white;
+    overflow: auto;
+  }
+
+  .div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+  }
+
+  .div33 h3{
+   text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-thickness: 3px;
+  }
+  .fa-brands{
+    margin-left: 40px;
+    font-size: 22px;
+  }
+
+  #footer-menu{
+    list-style-type: none;
+    padding: 0%;
+  }
+
+  #footer-menu li{
+    padding-bottom: 8px;
+  }
+ 
+  #footer-menu li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer-menu-container{
+    padding-left: 100px;
+  }
+
+#copyright{
+  background-color: #102439;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#poster h1{
+    font-size: 50px;
+
+}
+
+#poster p{
+  font-size: 18px;
+  text-align: center;
+}
